@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Resposta</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <center>
+        <div class="header-container">
+            
+                <header>
+                    <div class="logo">
+                        <img src="/images/gremio_colorado.jpg" alt="Grêmio Colorado">
+                    </div><p class="logo-texto">Grêmio Colorado</p>
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">Sobre nós</a></li>
+                            <li><a href="#">Calendário</a></li>
+                            <li><a href="#">Comentário</a></li>
+                            <li><a href="#">Galeria</a></li>
+                        </ul>
+                    </nav>
+                </header>
+            
+        </div>
+    </center>
+    <br><br>
+    <h1>Formulário de Inscrição</h1>
+
+    <br><br>
+   
+    <form id="responseForm">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="message">Mensagem:</label>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+        <button type="submit">Enviar Formulário</button>
+    </form>
+
+    <div id="result"></div>
+
+    <script src="form.js"></script>
+</body>
+</html>
